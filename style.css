@@ -1,12 +1,89 @@
 
 html{
   height:100%;
+  width:100%
   padding:0;
   margin:0;
 }
+body{
+  height: 100%;
+  width:100%;
+}
+div{
+    height: inherit;
+
+  border: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
 
 
+
+/* slide1*/
 .slide1 {
-    background: url("used/amigogif4.gif") center 0 no-repeat fixed;
-    background-size: cover;
- }
+      background: url(used/amigogif_bien.gif) center 0 no-repeat fixed;
+      background-size: 50%;
+      background-position: center;
+      display:flex;
+      align-items: flex-end;
+      justify-content:center;
+      width: 100%;
+}
+
+
+
+
+/* slide2 */
+ .slide2{
+   background: url(used/friends_color.jpg) center 0 no-repeat fixed;
+   background-size: cover;
+   display:flex;
+   justify-content:space-between;
+   height: auto;
+   width: 100%;
+   }
+.slide2 p{
+  font-size: 8em;
+  color: white;
+}
+
+
+
+/*slide3*/
+.slide3{
+  height:600px;
+  background-color:#5CDAD7;
+  }
+
+
+/*Slide4*/
+.slide4{
+  background-color: grey;
+  display:flex;
+  align-items: flex-start;
+  justify-content:flex-start;
+}
+.slide4 cercle{
+    border-radius:50% ;
+    width:160px;
+    height:160px;
+    border:2px solid #FF3E81;
+}
+
+.slide5{
+  display:flex;
+  justify-content: space-around;
+}
+.slide5 img{
+  width:250px;
+  height:250px;
+}
+.slide5 .id{
+display:flex;
+flex-direction: column;
+align-items:center;
+padding-top: 5px;
+padding-bottom: 5px;
+}
