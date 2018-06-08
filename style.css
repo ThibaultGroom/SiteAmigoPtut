@@ -95,9 +95,50 @@ padding:2%;
   flex-direction: column;
   justify-content: space-around;
 }
-
-
-
+.titre4{
+  height:400px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+.titre4 p{
+  z-index: 10;
+}
+.rectanglerose{
+  position: absolute;
+  width: 580px;
+  height: 130px;
+  background-color:pink;
+  border-radius: 8px;
+  z-index:0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.rectangleblanc{
+  position:absolute;
+  width:550px;
+  height: 100px;
+  background-color: white;
+  border-radius: 8px;
+}
+.content4{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.liste{
+  display:flex;
+  flex-direction: column;
+  margin-left: -500px;
+}
+.liste div{
+  font-size: 2.6em;
+}
+.quarun{
+  margin-top: 180px;
+}
 
 /*Slide5*/
 .slide5 {
