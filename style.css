@@ -6,7 +6,7 @@ body {
 }
 
 
-
+@media (min-width:360px){
 /* slide1*/
 .slide1 {
       background: url(used/amigogif_bien.gif) center 0 no-repeat fixed;
@@ -22,6 +22,7 @@ body {
   height:auto;
   position: fixed;
   z-index: -5;
+
 }
 
 
@@ -229,23 +230,41 @@ padding:2%;
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .pub{
   display:flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  height: 820px;
 }
 .rdv{
   display:flex;
   justify-content: center;
   align-items: center;
   background-color:white;
+  width:50%;
 }
 .rdv p{
   color: #9978fb;
-  font-size:3em;
+  font-size:4em;
   font-weight: bold;
+  margin-left:-20%;
 }
 .telephone{
-  background-color:white;
+  position:absolute;
+  margin-left:36%;
+  margin-top:-2%;
+}
+.telephone img{
+  height:900px;
 }
 .links{
   background-color:#9978fb;
@@ -253,11 +272,15 @@ padding:2%;
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  background-size:1500px;
+  width:50%;
 }
 .links img{
   width:500px;
   padding:5px;  
+  margin-left:20%; 
+}
+.margin{
+  margin-top:10%;
 }
 .dl{
   display:flex;
@@ -294,35 +317,207 @@ padding:2%;
 
 
 
-/*Slide5*/
-.slide5 {
-  background-color:white;
+
+
+.photosno{
+  display:flex;
+  justify-content: space-around;
+}
+.photosno img{
+  position:absolute;
+  height: 200px;
+  width: 200px;
+  z-index:2;
+  margin-left:-5.2%;
+  margin-top:3%;
 }
 
+
+/*Slide5*/
+.slide5{
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.slide5title{
+  height:400px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+.slide5title p{
+  z-index: 10;
+}
+.rectangleviolet{
+  position: absolute;
+  width: 580px;
+  height: 130px;
+  background-color:#9978fb;
+  border-radius: 8px;
+  z-index:1;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.rectangleblanc{
+  position:absolute;
+  width:550px;
+  height: 100px;
+  background-color: white;
+  border-radius: 8px;
+  z-index: 2;
+}
 
 .slide5photos{
   display:flex;
   justify-content: space-around;
 }
 .slide5photos img{
-  width:250px;
-  height:250px;
+  width:200px;
+  height:200px;
+  -webkit-transition: opacity 0.8s ease;
+  transition:opacity 0.8s ease;
 }
+
 .slide5photos .id{
 display:flex;
 flex-direction: column;
 align-items:center;
-padding-top: 5px;
-padding-bottom: 5px;
+justify-content: space-between;
+height:325px;
+font-size:2em;
+z-index: 5;
+
+}
+.slide5photos img:hover{
+  opacity:0;
+}
+.slide5photos span{
+  font-style: italic;
+}
+
+
+.delair{
+  width:100%;
+  height:175px;
+  background-color:white;
+
 }
 
 
 /*Slide6*/
 .slide6 {
 background-color:#ecebeb;
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+height: 180px;
 }
 .slide6 img{
   width: auto;
   height: 80px;
   padding:1%;
+}
+.txt6{
+font-size:3em;
+padding:0.5%;
+}
+.img6{
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+}
+#map{
+  posiion:absolute;
+  width:100%;
+  height:500px;
+
+}
+
+
+
+
+
+.formulaire{
+  position:absolute;
+  margin-left:50%;
+  margin-top:1%;
+  height: 45%;
+  background-color: white;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items: center;
+  width:35%;
+  z-index:55;
+}
+.titrefor{
+  font-size:2em;
+  margin-top:-170px;
+  }
+.nomemail{
+  display: flex;
+  justify-content: space-between;
+  margin-top:-150px;
+  font-size:2em;
+}
+.nomemail input{
+  border:none;
+  border-bottom:2px #9978fb solid;
+  margin-left:40px;
+  margin-right:40px;
+}
+.message{
+  position:absolute;
+  margin-top:50px; 
+  font-size:2em;
+}
+textarea{
+  resize:none;
+}
+.envoyer{
+  margin-top:240px;
+  margin-left:200px;
+  position: absolute;
+  width:auto;
+}
+input[type=submit]{
+  background:white;
+  border:none;
+  width:60px;
+  overflow: visible;
+}
+
+
+
+
+
+
+
+.footer{
+  height:200px;
+  width:100%;
+  background-color: #5CDAD7;
+  color:white;
+  font-size:3em;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer img{
+  width: 150px;
+}
+
+
+
+
+
+
+  
+}
+@media (max-width:360px){
+  #ccphil{display:none;}
 }
