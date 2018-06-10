@@ -31,7 +31,6 @@ body {
  .slide2{
    background: url(used/friends_color.jpg) center 0 no-repeat fixed;
    background-size: cover;
-
    height:900px;
    width: 100%;
    }
@@ -48,7 +47,7 @@ body {
 }
 .mockup2{
   margin-left: 65%;
-  margin-top:-800px;
+  margin-top:-42%;
   position: absolute;
 }
 
@@ -56,7 +55,6 @@ body {
 
 /*slide3*/
 .slide3{
-  height:600px;
   background-color:#5CDAD7;
   }
 .slide3 img{
@@ -92,7 +90,7 @@ padding:2%;
   justify-content: space-around;
 }
 .titre4{
-  height:400px;
+  margin-top:10%;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -104,18 +102,18 @@ padding:2%;
 }
 .rectanglerose{
   position: absolute;
-  width: 580px;
-  height: 130px;
+  width: 30.5%;
+  height: 13%;
   background-color:#ff3e81;
   border-radius: 8px;
   z-index:1;
-  margin-left: 5px;
-  margin-top: 5px;
+  margin-left: 0.3%;
+  margin-top: 0.3%;
 }
 .rectangleblanc{
   position:absolute;
-  width:550px;
-  height: 100px;
+  width:28%;
+  height: 10%;
   background-color: white;
   border-radius: 8px;
   z-index: 2;
@@ -129,8 +127,9 @@ padding:2%;
 .liste{
   display:flex;
   flex-direction: column;
-  margin-left: -200px;
-  width:1000px;
+  margin-left: -10%;
+  width:50%;
+  margin-top:7%;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -142,96 +141,94 @@ padding:2%;
 }
 .liste div{
   font-size: 2.6em;
-  
 }
 .quarun{
-  margin-top: 150px;
+  margin-top: 15%;
 }
 .quarde{
-  margin-top:50px;
-  margin-left:250px;
+  margin-top:5%;
+  margin-left:26%;
 }
 .quartr{
-  margin-top:50px;
-  margin-left:125px;
+  margin-top:5%;
+  margin-left:13%;
 }
 .quarqu{
-  margin-top:50px;
-  margin-left:250px;
+  margin-top:5%;
+  margin-left:26%;
 }
 .quarci{
-  margin-top:50px;
+  margin-top:5%;
+}
+.mockup{
+  margin-top:7%;
 }
 /*Slide4*/
 
 /* Bulles */
 .b1{
   position: absolute;
-  margin-top: -1630px;
-  margin-left:1500px;
+  margin-top: -84%;
+  margin-left:79%;
   z-index: 4;
 }
 .b2{
   position: absolute;
-  margin-top:-1556px;
-  margin-left:150px;
+  margin-top:-80.3%;
+  margin-left:7%;
   z-index: 0;
   height: 50px;
 }
 .b3{
   position: absolute;
-  margin-top: -1450px;
-  margin-left:750px;
+  margin-top: -74%;
+  margin-left:40%;
   height:60px;
 }
 .b4{
   position:absolute;
-  margin-top:-1250px;
-  margin-left:1100px;
+  margin-top:-63%;
+  margin-left:57%;
   height:120px;
 }
 .b5{
   position:absolute;
-  margin-top:-1300px;
-  margin-left:150px;
+  margin-top:-67%;
+  margin-left:7%;
   height:400px;
 }
 .b6{
   position: absolute;
-  margin-top:-600px;
-  margin-left:-70px;
+  margin-top:-35%;
+  margin-left:-3%;
 }
 .b7{
   position:absolute;
-  margin-top:-750px;
-  margin-left:850px;
+  margin-top:-40%;
+  margin-left:45%;
   height:100px;
 }
 .b8{
   position:absolute;
-  margin-top:-1000px;
-  margin-left:1450px;
+  margin-top:-53%;
+  margin-left:75%;
   height:450px;
 }
 .b9{
   position:absolute;
-  margin-top:-350px;
-  margin-left:1400px;
+  margin-top:-10%;
+  margin-left:75%;
 }
 .b10{
   position:absolute;
-  margin-top:-200px;
-  margin-left:900px;
+  margin-top:-20%;
+  margin-left:47%;
 }
 .b11{
   position:absolute;
-  margin-top:-90px;
-  margin-left:440px;
+  margin-top:-3%;
+  margin-left:23%;
 }
-
-
-
-
 
 
 
@@ -286,7 +283,7 @@ padding:2%;
   display:flex;
   flex-direction:column;
   justify-content:center;
-  padding:150px;
+  padding:10%;
 }
 
 
@@ -320,16 +317,17 @@ padding:2%;
 
 
 .photosno{
+  position: absolute;
   display:flex;
   justify-content: space-around;
-}
+  width:100%;
+  margin-left:-5.2%;
+  }
 .photosno img{
   position:absolute;
   height: 200px;
   width: 200px;
-  z-index:2;
-  margin-left:-5.2%;
-  margin-top:3%;
+  z-index:2; 
 }
 
 
@@ -353,8 +351,8 @@ padding:2%;
 }
 .rectangleviolet{
   position: absolute;
-  width: 580px;
-  height: 130px;
+  width: 30.5%;
+  height: 13%;
   background-color:#9978fb;
   border-radius: 8px;
   z-index:1;
@@ -363,8 +361,8 @@ padding:2%;
 }
 .rectangleblanc{
   position:absolute;
-  width:550px;
-  height: 100px;
+  width:28%;
+  height: 10%;
   background-color: white;
   border-radius: 8px;
   z-index: 2;
@@ -480,15 +478,14 @@ textarea{
   
 }
 .envoyer{
-  margin-top:240px;
-  margin-left:200px;
+  margin-top:35%;
+  margin-left:30%;
   position: absolute;
   width:auto;
 }
 input[type=submit]{
   background:white;
   border:none;
-  width:60px;
   overflow: visible;
 }
 
