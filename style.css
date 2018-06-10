@@ -1,9 +1,8 @@
 body {
-	font-family:"kollektif";
+  font-family:"kollektif", sans-serif;
+  src: local("used/Kollektif.ttf")
 }
-::-webkit-scrollbar {
-    display: none;
-}
+
 
 
 @media (min-width:360px){
@@ -107,7 +106,7 @@ padding:2%;
   position: absolute;
   width: 580px;
   height: 130px;
-  background-color:pink;
+  background-color:#ff3e81;
   border-radius: 8px;
   z-index:1;
   margin-left: 5px;
@@ -143,6 +142,7 @@ padding:2%;
 }
 .liste div{
   font-size: 2.6em;
+  
 }
 .quarun{
   margin-top: 150px;
@@ -431,7 +431,6 @@ padding:0.5%;
   justify-content: space-evenly;
 }
 #map{
-  /*position:absolute;*/
   width:100%;
   height:500px;
 
@@ -474,9 +473,11 @@ padding:0.5%;
   position:absolute;
   margin-top:50px; 
   font-size:2em;
+  margin-left:-20px;
 }
 textarea{
   resize:none;
+  
 }
 .envoyer{
   margin-top:240px;
@@ -508,7 +509,7 @@ input[type=submit]{
   align-items: center;
 }
 .footer img{
-  width: 150px;
+  width: 100px;
 }
 
 
@@ -516,8 +517,15 @@ input[type=submit]{
 
 
 
-  
+.mobile{
+  display:none;
+}  
 }
 @media (max-width:360px){
   #ccphil{display:none;}
+  #mobile{
+    font-size:2em;
+    color:#9978fb;
+    text-align: center;
+  }
 }
